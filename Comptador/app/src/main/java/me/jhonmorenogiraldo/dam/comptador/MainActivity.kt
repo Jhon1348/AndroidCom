@@ -3,6 +3,7 @@ package me.jhonmorenogiraldo.dam.comptador
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -10,6 +11,8 @@ import android.widget.Toast
 class MainActivity : AppCompatActivity() {
 
     private val INITIAL_TIME=3
+
+    private val TAG =MainActivity::class.java.simpleName
 
     internal lateinit var tapMeButton : Button
     internal lateinit var timeTextView : TextView
@@ -24,9 +27,13 @@ class MainActivity : AppCompatActivity() {
     internal val intervalCountDownTimer: Long= 1000
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        Log.d(TAG,"HOLA MON! onCreate")
+        Log.d(TAG,counter.toString())
+        Log.d(TAG,time.toString())
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //setContentView(R.layout.activity_main2)
+        
         initCountdown()
 
         tapMeButton = findViewById(R.id.tapMeButton)
