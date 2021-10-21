@@ -3,4 +3,5 @@
     <string name="touchme">Tocam</string>
     <string name="timeText">Temps disponible:%1$d</string>
     <string name="endGame">Temps Acabat!!</string>
+    <string name="resultat">resultat: %1$d</string>
 </resources>
