@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Comptador</string>
+    <string name="app_name">TFighter</string>
     <string name="touchme">Tocam</string>
     <string name="timeText">Temps disponible:%1$d</string>
     <string name="endGame">Temps Acabat!!</string>
     <string name="resultat">resultat: %1$d</string>
+    <string name="aboutMenu">About</string>
+    <string name="aboutTitle">Time Fighter%1$s</string>
+    <string name="aboutMessage">Create per Jhon Moreno. Github: https://github.com/Jhon1348/AndroidCom</string>
 </resources>
